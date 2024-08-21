@@ -1,0 +1,35 @@
+{
+  "name": "pwskill-nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "this is pw skill course for node js",
+  "main": "server.js",
+
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashutosh-mishra-dev/pwskill-nodejs.git"
+  },
+  "keywords": [
+    "ashutosh",
+    "mishra",
+    "pwskills",
+    "my",
+    "project"
+  ],
+  "author": "ashutosh mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs/issues"
+  },
+  "homepage": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
